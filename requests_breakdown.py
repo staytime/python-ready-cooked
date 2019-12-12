@@ -23,7 +23,7 @@ def request_get_response_time():
     url = 'http://www.google.com.tw'
 
     # send get request here, but all method are the same
-    response = requests.get('http://www.google.com.tw', \
+    response = requests.get(url, \
                             timeout = 30)
 
     print('response code = {}'.format(response.status_code))
